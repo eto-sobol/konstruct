@@ -54,6 +54,10 @@ body {
   min-height: 100vh;
 }
 
+.logo {
+  margin-top: 41.6px;
+}
+
 .text {
   font-family: "Open Sans", sans-serif;
   text-align: center;
