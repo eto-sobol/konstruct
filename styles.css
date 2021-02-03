@@ -35,17 +35,29 @@ body {
   margin: 0 auto;
 }
 
+.text {
+  font-family: "Open Sans", sans-serif;
+}
+
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+  padding-top: 41px;
+  padding-bottom: 71px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header {
@@ -54,17 +66,25 @@ body {
   min-height: 100vh;
 }
 
-.logo {
-  margin-top: 41.6px;
-}
-
-.text {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
 .main-heading {
   font-family: "BebasNeueBold", sans-serif;
   text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 5.70937px;
+  color: #FFFFFF;
+}
+
+.header_text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header_button {
+  border: none;
+  background: none;
 }
 /*# sourceMappingURL=styles.css.map */
