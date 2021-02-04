@@ -33,6 +33,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+section, footer, div {
+    scroll-margin-top: 1em;
+}
+
 .header-container {
     display: flex;
     flex-flow: column wrap;
@@ -83,6 +87,9 @@ body {
 .nav {
     height: 65px;
     border-bottom: 1px solid #E6E6E6;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 }
 
 .nav_container {
