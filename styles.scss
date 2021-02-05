@@ -87,8 +87,6 @@ section, footer, div {
 .nav {
     height: 65px;
     border-bottom: 1px solid #E6E6E6;
-    position: sticky;
-    top: 0;
     background-color: #FFFFFF;
 }
 
@@ -402,4 +400,113 @@ section, footer, div {
     text-align: center;
     letter-spacing: 0.846154px;
     color: #FFFFFF;
+}
+
+.footer_center {
+    background: #141A20;
+    padding-bottom: 40px;
+}
+
+.footer_center_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    padding-top: 42px;
+}
+
+.footer_heading {
+    font-family: "Open Sans";
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.footer_logo {
+    width: 101.62px;
+    margin-top: 19px;
+}
+
+.company_content {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 262px;
+    padding-top: 42px;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.footer_links {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 141px;
+    padding-top: 42px;
+}
+
+.contacts_text {
+    margin-top: 15px;
+    font-family: "Open Sans";
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.socials {
+    width: 87px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.icon_pic {
+    color: #FFFFFF;
+}
+
+.footer_down {
+    background: #171819;
+}
+
+.footer_down_text {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
